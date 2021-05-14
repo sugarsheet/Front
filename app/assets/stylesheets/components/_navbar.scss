@@ -12,16 +12,16 @@
 }
 
 .logo {
-  background-image: url('https://parismatch.be/app/uploads/2018/07/maman-j-ai-rate-l-avion-photo-affiche-1100x715.jpg');
   background-size: cover;
   height: 800px;
   width: 100%;
 }
 
 h1 {
-  color: darkslategrey;
+  color: white;
   &:hover {
-    color: deeppink;
+    color: black;
   }
   justify-content: center;
+  font-size: 6rem;
 }
