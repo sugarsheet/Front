@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
-
+gem 'cloudinary', '~> 1.16.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -37,7 +37,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rails-controller-testing'
   gem 'dotenv-rails', groups: [:development, :test]
-
 end
 
 group :development do
