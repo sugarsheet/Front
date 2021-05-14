@@ -10,3 +10,18 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.logo {
+  background-image: url('https://parismatch.be/app/uploads/2018/07/maman-j-ai-rate-l-avion-photo-affiche-1100x715.jpg');
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+h1 {
+  color: darkslategrey;
+  &:hover {
+    color: deeppink;
+  }
+  justify-content: center;
+}
